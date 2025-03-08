@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Converter Container */
+.converter-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+input {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+select {
+  background-color: #f4f4f4;
+  color: #333;
+  cursor: pointer;
+}
+
+button {
+  background-color: #36d1dc;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5b86e5;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+footer strong {
+  color: #f7f7f7;
+}
